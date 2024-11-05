@@ -8,7 +8,7 @@
 
 const greet = (name) => `Hello, ${name}!`;
   
-console.log(greet("Kholoud"));
+//console.log(greet("Kholoud"));
 
 // Write a simple arrow function that takes two parameters and returns their sum.
 //Task2
@@ -16,7 +16,7 @@ console.log(greet("Kholoud"));
 
 const addition = (firstNum, secondNum) => firstNum + secondNum;
 
-console.log(addition(3,2))
+//console.log(addition(3,2))
 
 // Write a simple arrow function that squares a number.
 //Task3
@@ -24,15 +24,13 @@ const squares = (firstNum) => {
     return firstNum * firstNum;
   };
 
-  console.log(squares(2))
+  //console.log(squares(2))
 
 
 // Create an arrow function that takes an array of numbers and returns a new array with each number squared.
 // [🌶️🌶️]
 
-const array = (firstNum, secondNum, thirdNum, fourthNum) => {
-    return [firstNum*firstNum, secondNum*secondNum, thirdNum*thirdNum, fourthNum*fourthNum]; 
-  };
+
 
 const square = (array) => {
     return array.map((numb)=>{
@@ -41,4 +39,4 @@ const square = (array) => {
 
 }
 
-console.log(array(1,2,3,4));
+//console.log(array(1,2,3,4));
