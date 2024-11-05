@@ -6,20 +6,15 @@
 ********************************/
 //Task1
 
-const helloArrows = (name) => {
-    console.log(`Hello, ${name}!`);
-  };
-
+const greet = (name) => `Hello, ${name}!`;
   
-  helloArrows("Kholoud");
+console.log(greet("Kholoud"));
 
 // Write a simple arrow function that takes two parameters and returns their sum.
 //Task2
+//i can write them like task 1 or other tasks, but if i want to write return i have to put {}.
 
-
-const addition = (firstNum, secondNum) => {
-    return firstNum + secondNum;
-  };
+const addition = (firstNum, secondNum) => firstNum + secondNum;
 
 console.log(addition(3,2))
 
